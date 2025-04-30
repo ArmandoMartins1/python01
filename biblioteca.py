@@ -29,3 +29,9 @@ def verifica(num):
         return "N"
     else:
         return "Z"
+
+def soma(*args):
+    soma=0
+    for x in range(len(args)):
+        soma=soma+args[x]
+    print(soma)
