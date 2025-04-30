@@ -21,3 +21,11 @@ def contaVogal(texto):
 def valorEstoque (nome_produto,estoque_produto,valor_unitario):
     vTotal = estoque_produto*valor_unitario
     return vTotal
+
+def verifica(num):
+    if num>0 :
+        return "P"
+    elif num<0:
+        return "N"
+    else:
+        return "Z"
