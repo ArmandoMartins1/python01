@@ -10,3 +10,10 @@ def piramideNumero(n):
         for j in range(i):
             print(i, end=" ")
         print()
+
+def contaVogal(texto):
+    cont = 0
+    for x in range(len(texto)):
+        if texto[x] == "a" or texto[x] == "e" or texto[x] == "i" or texto[x] == "o" or texto[x] == "u":
+            cont = cont + 1
+    print(cont)
